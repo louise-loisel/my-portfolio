@@ -1,0 +1,29 @@
+.navbar {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row
+}
+
+
+ul {
+    display: flex;
+    align-items: center;
+    font-weight: 800;
+    font-size: 14px;
+    margin-top: 122px;
+
+}
+
+a {
+    font-weight: 800;
+}
+
+a:hover {
+    text-decoration: underline;
+  }
+
+  
+
+li {
+    margin-right: 113px;
+}
