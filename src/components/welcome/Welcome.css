@@ -1,0 +1,17 @@
+.welcome-container {
+    display: flex;
+    justify-content: center;
+    flex-flow: row-reverse wrap;
+    align-items: flex-end;
+    height: 350px 
+}
+
+.welcome-img {
+    max-width: 40%;
+    height: auto;
+}
+.description {
+    align-self: auto;
+    margin: 50px;
+    padding:50px
+}

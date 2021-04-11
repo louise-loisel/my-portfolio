@@ -1,0 +1,31 @@
+:root {
+  --primary: #222222;
+}
+
+.btn {
+    border-radius: 14px;
+    cursor: pointer;
+    outline: none;
+    border-radius:none;
+
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 10px;
+
+
+
+
+}
+.btn--primary {
+    background-color: var(--primary);
+    color: #ffffff;
+    border: 2px solid var(--primary);
+}
+.btn--secondary {
+    background-color: transparent;
+    color: #ffffff;
+    padding: 10px;
+    border: 2px solid var(--primary);
+    transition: all 0.3s ease-out;
+}
