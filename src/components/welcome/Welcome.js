@@ -13,7 +13,7 @@ function Welcome() {
             <div className='description'>
                 <h1>Louise Loisel</h1>
                 <p>Welcome to my personal portfolio, here I want to display my
-personal projects.</p>
+personal projects.</p> <p>Work in progress ;)</p>
                 {button && <Button buttonStyle='btn--primary'>CONTACT ME</Button>}
             </div>
         </div>
