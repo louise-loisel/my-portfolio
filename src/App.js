@@ -12,7 +12,8 @@ function App() {
       <Router>
           <Navbar />
           <Switch>
-            <Route path='/my-portfolio' />
+            <Route path='/'></Route>
+            <Route path='/my-portfolio'></Route>
           </Switch>
           
           <Welcome />
