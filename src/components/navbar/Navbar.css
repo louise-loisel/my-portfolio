@@ -1,29 +1,43 @@
 .navbar {
     display: flex;
     justify-content: flex-end;
-    flex-direction: row
+    margin:30px 10px 10px 10px;
+    flex-direction: row;
+    align-content: stretch;
+
 }
 
-
-ul {
+.navbar-container {
     display: flex;
-    align-items: center;
-    font-weight: 800;
-    font-size: 14px;
-    margin-top: 122px;
-
+    align-items: flex-end;
+    justify-content: flex-end;
+    flex-direction: row;
+    flex-grow:4
 }
 
-a {
+
+.navbar ul {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
     font-weight: 800;
+    flex-grow:4;
 }
 
-a:hover {
+.navbar a:hover {
     text-decoration: underline;
   }
 
+.navbar a {
+    display: block;
+}
+
   
 
-li {
-    margin-right: 113px;
-}
+.navbar li {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin: 10px 50px 0px 0px;
+
+} 
